@@ -110,7 +110,7 @@ export const WebPlayback: VFC<Props> = ({ token }) => {
 
               <button
                 className="btn-spotify"
-                onClick={() => {
+                onClick={() => {                  
                   player.togglePlay();
                 }}
               >
